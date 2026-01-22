@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Navbar } from "@/components/layout/Navbar";
-import { Footer } from "@/components/Footer";
+import Footer from "@/components/Footer";
 import { Users, Ticket, MessageCircle, ArrowRight, Sparkles } from "lucide-react";
 
 export default function Home() {
