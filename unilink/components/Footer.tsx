@@ -13,12 +13,15 @@ export default function Footer() {
             <h2 className="text-4xl font-semibold text-black mt-2">
               Contact us
             </h2>
-            <div className="w-16 h-0.5 bg-yellow-400 mt-3" />
+            {/* underline also orange */}
+            <div className="w-16 h-0.5 bg-[#f97316] mt-3" />
           </div>
 
+          {/* ORANGE ARROW BUTTON */}
           <Link
             href="/contact"
-            className="w-14 h-14 rounded-full bg-yellow-400 flex items-center justify-center text-black text-2xl hover:scale-105 transition"
+            className="w-14 h-14 rounded-full bg-[#f97316] flex items-center justify-center
+                       text-black text-2xl hover:scale-105 transition"
           >
             →
           </Link>
@@ -50,7 +53,8 @@ export default function Footer() {
             <Link
               href="https://www.google.com/maps?q=Chitkara+University+Rajpura+Punjab"
               target="_blank"
-              className="inline-block mt-2 underline underline-offset-4 hover:text-yellow-400 transition"
+              className="inline-block mt-2 underline underline-offset-4
+                         hover:text-[#f97316] transition"
             >
               See on map →
             </Link>
@@ -65,7 +69,9 @@ export default function Footer() {
               <Link
                 href="https://www.linkedin.com"
                 target="_blank"
-                className="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:border-yellow-400 hover:text-yellow-400 transition"
+                className="w-10 h-10 rounded-full border border-white/20
+                           flex items-center justify-center
+                           hover:border-[#f97316] hover:text-[#f97316] transition"
               >
                 in
               </Link>
@@ -73,7 +79,9 @@ export default function Footer() {
               <Link
                 href="https://www.instagram.com"
                 target="_blank"
-                className="w-10 h-10 rounded-full border border-white/20 flex items-center justify-center hover:border-yellow-400 hover:text-yellow-400 transition"
+                className="w-10 h-10 rounded-full border border-white/20
+                           flex items-center justify-center
+                           hover:border-[#f97316] hover:text-[#f97316] transition"
               >
                 ig
               </Link>

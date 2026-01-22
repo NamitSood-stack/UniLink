@@ -34,10 +34,13 @@ export function Navbar() {
                 <div className="flex gap-6 text-sm">
                     <Link
                         href="/signup"
-                        className="px-4 py-2 rounded-full bg-neutral-900 text-white hover:bg-neutral-800 transition-all duration-200"
+                        className="px-4 py-2 rounded-full bg-neutral-900 text-white
+             hover:bg-[#f97316] transition-all duration-200"
                     >
                         Get Started
                     </Link>
+
+
                 </div>
             </nav>
         );

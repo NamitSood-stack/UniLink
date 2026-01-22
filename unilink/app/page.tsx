@@ -36,11 +36,14 @@ export default function Home() {
               <div className="mt-10 flex flex-col gap-4 sm:flex-row">
                 <Link
                   href="/signup"
-                  className="group inline-flex items-center justify-center gap-2 rounded-xl bg-neutral-900 px-6 py-3.5 text-sm font-medium text-white transition-all hover:bg-neutral-800 hover:shadow-lg hover:shadow-neutral-900/20"
+                  className="group inline-flex items-center justify-center gap-2 rounded-xl bg-neutral-900 px-6 py-3.5 text-sm font-medium text-white transition-all 
+                  hover:bg-orange-500 hover:shadow-lg hover:shadow-orange-500/30"
+                // ONLY CHANGE HERE
                 >
                   Get Started
                   <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
                 </Link>
+
                 <Link
                   href="/projects"
                   className="inline-flex items-center justify-center rounded-xl border border-neutral-200 bg-white px-6 py-3.5 text-sm font-medium text-neutral-700 transition-all hover:bg-neutral-50 hover:border-neutral-300"
